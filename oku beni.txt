@@ -1,0 +1,3 @@
+kullanılan servo motor: Power HD Servo HD-2360A
+5v adaptör ile motoru besleyin, stm32f4'ün GND'si ile adaptörün GND'sini birleştirin
+motorun besleme pinlerini adaptöre bağlayın, data pinini stm'in PC6(pwm ayarladığımız) pinine bağlayın
