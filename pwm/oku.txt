@@ -1,0 +1,14 @@
+aynı anda hem d12-d15 arasındaki 4 ledi,
+hem de c6-c9 arasındaki 4 ledi pwm ile yavaşça yakıp, yavaşça söndürür.
+
+timer 4 ile d12-d15 arası
+timer 3 ile c6-c9 arası pinler kontrol ediliyor.
+
+timerlerin pinleri donanımsal sabittir değiştirilemez. 
+Hangi timer hangi ledleri kontrol edebiliyor görmek için sayfaya bakınız: http://stm32f4-discovery.com/2014/09/library-33-pwm-stm32f4xx/
+
+ek bilgi için:
+http://burakenez.org/2014/07/04/timer-ve-pwme-genel-bakis-stm32f4de-timer-ile-pwm-cikis-sinyali-olusturma/
+http://gunluk.muuzoo.gen.tr/2012/08/13/stm32f4-discovery-maceralari-8-tim10-pwm-pin-yon/
+http://stm32f4-discovery.com/2014/05/stm32f4-stm32f429-discovery-pwm-tutorial/
+http://www.mcu-turkey.com/stm32f3-pwm-kullanimi/
